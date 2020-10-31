@@ -1,0 +1,36 @@
+// Variabler färg
+$font-stack: Helvetica;
+$headercolor: #0f1313;
+$purplecolor:#8877f9;
+$greencolor: #688a83;
+$turquoisecolor: #b2ebdf;
+$pinkcolor: #f18edd;
+// Rubriker
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3.3em;
+    color: $purplecolor;
+}
+
+// Brödtext
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+}
+
+// Länkar
+a {
+    color: $turquoisecolor;
+    font-family: 'Poppins', sans-serif;
+}
+
+// Länk vid rörelse
+a:hover {
+    color: $purplecolor;
+}
+
+// Ifyllnadsfält
+input {
+    font-size: 1em;
+}

@@ -1,0 +1,54 @@
+// Gör webbplatsen responsiv
+@media all and (max-width: 70000px) {
+    .smallfooter {
+        display: none;
+    }
+    .bigfooter {
+        display: block;
+    }
+    .myPresentation {
+        img {
+            max-width: 80%;
+        }
+        .mobilepres {
+            display: none;
+        }
+        .compres {
+            display: block;
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .myPresentation {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+@media all and (max-width: 800px) {
+    .smallfooter {
+        display: block;
+        a {
+            font-size: 1.3em;
+        }
+    }
+    .bigfooter {
+        display: none;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .myPresentation {
+        img {
+            max-width: 100%;
+        }
+        .mobilepres {
+            display: block;
+        }
+        .compres {
+            display: none;
+        }
+    }
+}

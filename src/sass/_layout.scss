@@ -1,0 +1,157 @@
+// Header
+header {
+    img {
+        max-width: 100%;
+    }
+    background-color: $headercolor;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+// Huvuddel av sidan - body 
+body {
+    margin: auto;
+    place-content: center;
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+
+// Huvuddel av sidan - container 
+.container {
+    background-color: $headercolor;
+}
+
+// Div 1 - Presentation om mig 
+.myPresentation {
+    img {
+        max-width: 80%;
+    }
+    background-color: $headercolor;
+    padding-bottom: 2%;
+    margin: auto;
+    place-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+// Div 2 - Läser ut kurser jag läst 
+.divCourses {
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    background-image: url("../images/black4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+// Div 3 - Läser ut arbeten jag haft 
+.divWorks {
+    background-image: url("../images/white3.jpg");
+    text-align: center;
+    background-size: 100%;
+    padding-top: 7%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+// Div 4 - Läser ut webbplatser jag gjort 
+.divWebsites {
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    background-image: url("../images/black.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+// Footer
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: white;
+    a {
+        color: $purplecolor;
+    }
+    a:hover {
+        color: $pinkcolor;
+    }
+}
+
+// Adminsidan
+.admincontainer {
+    background-image: url("../images/white3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 300px;
+    a {
+        color: black;
+    }
+    a:hover {
+        color: $purplecolor;
+    }
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+        color: black;
+    }
+    form {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    input[type=button],
+    input[type=submit],
+    input[type=reset] {
+        background-color: black;
+        font-size: 1em;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    button {
+        margin-bottom: 2%;
+    }
+    h2 {
+        color: $purplecolor;
+    }
+}
+
+// Undersidorna länkade från admin
+.underAdminContainer {
+    background-image: url("../images/white.jpg");
+    background-size: 100%;
+    background-color: $headercolor;
+    text-align: center;
+    a {
+        color: black;
+    }
+    a:hover {
+        color: $purplecolor;
+    }
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+        color: black;
+    }
+    form {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 2.5em;
+        a {
+            font-size: 0.7em;
+        }
+    }
+    button {
+        margin-bottom: 2%;
+        font-size: 1.3em;
+    }
+}
