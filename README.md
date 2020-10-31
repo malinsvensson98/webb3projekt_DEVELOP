@@ -25,5 +25,5 @@ I filen finns tillexempel:
 - För CSS: Minfieras med "gulp-clean-css".
 - För EcmaScript: Översätts till JavaScript med "gulp-babel".
 - För bilder: Optimeras med "gulp-imagemin". 
-- För SASS: Omvanlas till css med "node-sass". 
+- För SASS: Omvandlas till css med "node-sass". 
 - BrowserSync: Laddar om webbplatsen vid förändringar.
