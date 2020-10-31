@@ -26,3 +26,4 @@ I filen finns tillexempel:
 - För EcmaScript: Översätts till JavaScript med "gulp-babel".
 - För bilder: Optimeras med "gulp-imagemin". 
 - För SASS: Omvanlas till css med "node-sass". 
+- BrowserSync: Laddar om webbplatsen vid förändringar.
